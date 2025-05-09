@@ -65,6 +65,9 @@ nltk.download('wordnet')
 
 The user’s input text is tokenized and lemmatized to convert it into a format suitable for machine learning models. The text is preprocessed using NLTK’s `word_tokenize()` and `WordNetLemmatizer()` functions.
 
+![alt text](<Screenshot 2025-05-10 012113.png>)
+![alt text](<Screenshot 2025-05-10 012143.png>)
+
 ### 2. **Model Building**
 
 A custom neural network model is built using **TensorFlow** and **Keras**. The model consists of multiple dense layers for intent classification and book recommendations. It is trained on labeled data for intent classification and book suggestion.
